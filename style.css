@@ -826,6 +826,7 @@ width: 100%;
 }
 .container{
     width: 500px;
+    max-width: 100%;
     height: 40px;
     display: block;
     
@@ -1051,7 +1052,7 @@ section{
         
     }
     .s-subsection {
-        display: grid;
+        display: block;
 grid-template-columns: repeat(1, 1fr);
         width: 100%;
         align-items: center;
@@ -1092,18 +1093,17 @@ grid-template-columns: repeat(1, 1fr);
 
 .subscribe-section {
     background-color: #3B3B3B;
-    width: 92%;
+    
     margin-top: 5rem;
-    display: flex;
+    display: block;
     flex-direction: column;
-    margin: 5rem auto 5rem auto;
+    margin: 5rem auto 5rem 1rem;
     padding: 2rem 0rem 2rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     padding: 3rem 3rem 3rem 3rem;
-    gap: rem;
 
 }
 .dg-text {
@@ -1121,7 +1121,7 @@ grid-template-columns: repeat(1, 1fr);
     font-size: 20px;
 }
 .weekly-dg img{
-    width: 68%;
+    width: 54%;
     padding-top: 1rem;
 }
 
@@ -1206,7 +1206,7 @@ section{
     left: 7%;
 }
 .s-subimages{
-    width: 70%;
+    width: 100%;
 }
 .highlightcontent{
     gap: 0rem;
@@ -1475,6 +1475,7 @@ section{
         justify-content: space-between;
         place-items: center;
         gap: 2rem;
+        width: 100%;
     }
     .content-item2{
         display: none;
@@ -1491,7 +1492,9 @@ section{
         flex-direction: column;
         gap: 2rem;
         padding-left: 2.5rem;
+        padding-right: 2.5rem;
         padding-top: 2rem;
+        width: 100%;
     }
     .how-to-card{
         display: flex;
@@ -1502,7 +1505,7 @@ section{
         background-color: #3B3B3B;
         place-items: center;
         padding-bottom: 2rem;
-        width: 90%;
+        width: 100%;
         place-content: center;
     
     }
@@ -1523,7 +1526,7 @@ section{
         padding-right: 2rem;
     }
     .Creators-profilestab{
-        padding-left: 2rem;
+        padding-left: 0rem;
     }
      .content-item2{
         display: none;
@@ -1655,6 +1658,7 @@ padding-top: 3rem;
         padding: 0rem 3rem 0rem 3rem;
     
     }
+    
 }
 @media (max-width:390px){
     .section-sub{
@@ -1707,7 +1711,7 @@ padding-top: 3rem;
     }
   
     .s-subsection {
-        display: grid;
+        display: block;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
         align-items: center;
@@ -1746,5 +1750,12 @@ padding-top: 3rem;
     li{
         text-align: center;
     }
+      .container  {
+        width: 100%;
+      }
+      .form-dg {
+        width: 100%;
+      }
+      
   
 }
