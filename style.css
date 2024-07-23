@@ -1233,8 +1233,8 @@ section{
     }
     input[type="email"] {
         width: 54%;
-        padding: 10px;
-        font-size: 16px;
+        padding: 7px;
+        font-size: 12px;
         border: 1px solid ;
         border-radius: 18px;
         box-sizing: border-box;
