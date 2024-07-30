@@ -86,7 +86,7 @@ h2{
 
 .input-field {
     width: 100%;
-    padding: 10px 10px 10px 40px; /* Adjust according to the width of your image */
+    padding: 10px 10px 10px 40px; 
     border-radius: 25px;
     border: none;
     background-color: white;
@@ -99,7 +99,7 @@ h2{
 }
 .submit-button{
     width: 100%;
-    padding: 10px 10px 10px 40px; /* Adjust according to the width of your image */
+    padding: 10px 10px 10px 40px; 
     border-radius: 25px;
     border: none;
     background-color: #A259FF;

@@ -414,7 +414,7 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
     .header{
-        padding-left: 4rem;
+        padding-left: 2.5rem;
     }
     .footer-form{
         width: 45%;
